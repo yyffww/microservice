@@ -1,0 +1,19 @@
+server:
+  port: 8001
+
+spring:
+  application:
+    name: consumer-order1
+
+
+order:
+  url: http://localhost:8001/user/
+
+eureka:
+  instance:
+    prefer-ip-address: true   #注册服务使用服务的ip地址
+  client:
+    register-with-eureka: false
+client:
+  service-url:
+    defaultZone: http://localhost:8761/eureke/

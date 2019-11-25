@@ -1,0 +1,53 @@
+server:
+  port: 7002
+eureka:
+  instance:
+    prefer-ip-address: true
+    instance-id: provider-user:7002
+    client:
+      service-url:
+        defaultZone: http://eureka8762.com:8762/eureka/,http://eureka8761.com:8761/eureka/,http://eureka8763.com:8763/eureka/
+
+spring:
+  application:
+    name: provider-user
+  datasource:
+    #    initialization-mode=always:
+    username: root
+    password: yf159221
+    url: jdbc:mysql://49.234.205.100:3306/springcloud7002?useUnicode=true&characterEncoding=utf-8&serverTimezone=UTC
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+    #    schema:
+    #      - classpath:user.sql
+    initialSize: 5
+    minIdle: 5
+    maxActive: 20
+    maxWait: 60000
+    timeBetweenEvictionRunsMillis: 60000
+    minEvictableIdleTimeMillis: 300000
+    validationQuery: SELECT 1 FROM DUAL
+    testWhileIdle: true
+    testOnBorrow: false
+    testOnReturn: false
+    poolPreparedStatements: true
+    #   配置监控统计拦截的filters，去掉后监控界面sql无法统计，'wall'用于防火墙
+    filters: stat,wall,slf4j
+    maxPoolPreparedStatementPerConnectionSize: 20
+    useGlobalDataSourceStat: true
+    connectionProperties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=500
+  #    schema:
+  #      - classpath:sql/user.sql
+mybatis:
+  config-location: classpath:mybatis/mybatis-config.xml
+  mapper-locations: classpath:mybatis/mapper/*.xml
+  type-aliases-package: com.yangfan.bean
+
+logging:
+  level:
+    com.yangfan.mapper: debug
+info:
+  app.name: 7002
+  company.name: www.yanglovehu.xyz:8080
+  build.artifacId: $project.artifacId$
+  build.version: $project.version$
