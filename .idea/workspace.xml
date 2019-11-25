@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5e479f59-bf28-463f-9582-caf055b09f32" name="Default Changelist" comment="" />
+    <list default="true" id="5e479f59-bf28-463f-9582-caf055b09f32" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-user7002/src/main/java/com/yangfan/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider-user7002/src/main/java/com/yangfan/service/UserService.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/provider-user/target/" />
@@ -58,7 +61,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/provider-user7001/src/main/java/com/yangfan/service/UserService.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="242">
@@ -70,11 +73,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/consumer-order-ribbon/src/main/java/com/yangfan/bean/User.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/provider-user7002/src/main/java/com/yangfan/service/UserService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="132">
+              <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -145,12 +148,11 @@
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/fastdfs-client-java" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/provider-user/pom.xml" />
         <option value="$PROJECT_DIR$/eureka/src/main/java/com/yangfan/EurekaApplication.java" />
         <option value="$PROJECT_DIR$/consumer-order1/src/main/java/com/yangfan/ConsumerOrder.java" />
         <option value="$PROJECT_DIR$/eureka/pom.xml" />
@@ -201,6 +203,7 @@
         <option value="$PROJECT_DIR$/consumer-order-ribbon/src/main/java/com/yangfan/ConsumerOrderRibbon.java" />
         <option value="$PROJECT_DIR$/provider-user7001/src/main/java/com/yangfan/ProviderUser7001.java" />
         <option value="$PROJECT_DIR$/provider-user7001/src/main/java/com/yangfan/service/UserService.java" />
+        <option value="$PROJECT_DIR$/provider-user7002/src/main/java/com/yangfan/service/UserService.java" />
       </list>
     </option>
   </component>
@@ -224,8 +227,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="56" />
-    <option name="y" value="19" />
+    <option name="x" value="245" />
+    <option name="y" value="96" />
     <option name="width" value="1440" />
     <option name="height" value="810" />
   </component>
@@ -246,25 +249,25 @@
             <path>
               <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
               <item name="microservice" type="462c0819:PsiDirectoryNode" />
-              <item name="provider-user7001" type="462c0819:PsiDirectoryNode" />
+              <item name="provider-user7002" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
               <item name="microservice" type="462c0819:PsiDirectoryNode" />
-              <item name="provider-user7001" type="462c0819:PsiDirectoryNode" />
+              <item name="provider-user7002" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
               <item name="microservice" type="462c0819:PsiDirectoryNode" />
-              <item name="provider-user7001" type="462c0819:PsiDirectoryNode" />
+              <item name="provider-user7002" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
               <item name="microservice" type="462c0819:PsiDirectoryNode" />
-              <item name="provider-user7001" type="462c0819:PsiDirectoryNode" />
+              <item name="provider-user7002" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -272,7 +275,7 @@
             <path>
               <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
               <item name="microservice" type="462c0819:PsiDirectoryNode" />
-              <item name="provider-user7001" type="462c0819:PsiDirectoryNode" />
+              <item name="provider-user7002" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -281,7 +284,7 @@
             <path>
               <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
               <item name="microservice" type="462c0819:PsiDirectoryNode" />
-              <item name="provider-user7001" type="462c0819:PsiDirectoryNode" />
+              <item name="provider-user7002" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -458,15 +461,23 @@
       <workItem from="1573107498472" duration="8040000" />
       <workItem from="1573144511314" duration="4676000" />
       <workItem from="1573302497090" duration="14182000" />
-      <workItem from="1574669243135" duration="1998000" />
+      <workItem from="1574669243135" duration="2321000" />
     </task>
+    <task id="LOCAL-00001" summary="微服务学习">
+      <created>1574671771630</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1574671771630</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="103252000" />
+    <option name="totallyTimeSpent" value="103575000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="56" y="19" width="1440" height="810" extended-state="0" />
+    <frame x="245" y="96" width="1440" height="810" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30261248" />
@@ -492,9 +503,9 @@
       <window_info anchor="bottom" id="Problems" order="11" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
-      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="bottom" id="Version Control" order="14" weight="0.32886904" />
       <window_info anchor="bottom" id="Messages" order="15" weight="0.32916668" />
-      <window_info anchor="bottom" id="Run Dashboard" order="16" sideWeight="0.4994664" visible="true" weight="0.096726194" />
+      <window_info anchor="bottom" id="Run Dashboard" order="16" sideWeight="0.4994664" weight="0.096726194" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -548,6 +559,10 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="微服务学习" />
+    <option name="LAST_COMMIT_MESSAGE" value="微服务学习" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/provider-user-copy/src/main/java/com/yangfan/controller/UserController.java" />
     <entry file="file://$PROJECT_DIR$/provider-user-copy/src/main/resources/application.yml" />
@@ -590,9 +605,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/provider-user7002/src/main/java/com/yangfan/mapper/UserMapper.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/provider-user7002/src/main/java/com/yangfan/service/UserService.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/provider-user7002/src/main/resources/mybatis/mapper/UserMapper.xml">
@@ -916,6 +928,13 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/provider-user7002/src/main/java/com/yangfan/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
         </state>
       </provider>
     </entry>
